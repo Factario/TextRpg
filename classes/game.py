@@ -115,7 +115,7 @@ class Person:
 
     def enemy_stats(self):
         hp_bar = ''
-        bar_ticks = (self.hp / self.maxhp) * 100 / 3
+        bar_ticks = (self.hp / self.maxhp) * 100 / 2
 
         mp_bar = ''
         mp_ticks = (self.mp / self.maxmp) * 100 / 8
@@ -124,7 +124,7 @@ class Person:
             hp_bar += '█'
             bar_ticks -= 1
 
-        while len(hp_bar) < 25:
+        while len(hp_bar) < 50:
             hp_bar += ' '
 
         while mp_ticks > 0:
@@ -135,7 +135,7 @@ class Person:
             mp_bar += '█'
             mp_ticks -= 1
 
-        while len(mp_bar) < 10:
+        while len(mp_bar) < 13:
             mp_bar += ' '
 
         hp_string = str(self.hp) + '/' + str(self.maxhp)
