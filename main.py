@@ -43,13 +43,13 @@ player_items = [{'item': hp_potion, 'quantity': 5},
                 {'item': holy_grail, 'quantity': 1}]
 
 # Player and evil, stats
-player1 = Person('Virgin ', 750, 150, 60, 35, player_spells, player_items)
+player1 = Person('Vergil ', 750, 150, 60, 35, player_spells, player_items)
 player2 = Person('Dante ', 750, 150, 60, 35, player_spells, player_items)
 player3 = Person('Nero ', 750, 150, 60, 35, player_spells, player_items)
 
-enemy1 = Person('OwOsva', 1000, 120, 120, 40, enemy_spells, [])
-enemy2 = Person('Zas', 2500, 200, 100, 25, enemy_spells1, [])
-enemy3 = Person('Geraaii', 1000, 120, 400, 34, enemy_spells, [])
+enemy1 = Person('Minion', 1000, 120, 120, 40, enemy_spells, [])
+enemy2 = Person('Demon', 2500, 200, 100, 25, enemy_spells1, [])
+enemy3 = Person('Minion', 1000, 120, 400, 34, enemy_spells, [])
 
 players = [player1, player2, player3]
 enemies = [enemy1, enemy2, enemy3]
